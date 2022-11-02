@@ -8,4 +8,6 @@
 body {
   background-color: var(--bgb-color);
   color: var(--title-text-color);
+
+  font-family: "Roboto", sans-serif;
 }
