@@ -3,9 +3,9 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --bgb-color: #ffffff;
-  --primary-bgb-color: #2F303A;
-  --accent-hero-button-color: #188CE8;
-  --primary-section-color: #F5F4FA;
+  --primary-bgb-color: #2f303a;
+  --accent-hero-button-color: #188ce8;
+  --primary-section-color: #f5f4fa;
 }
 
 body {
@@ -22,6 +22,7 @@ ul {
 
 a {
   font-style: normal;
+  text-decoration: none;
 }
 
 /* Logo */
@@ -30,10 +31,11 @@ a {
 
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.20;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 
   text-decoration: none;
-  color: var(--title-text-color);     
+  color: var(--title-text-color);
 }
 
 .logo > span {
@@ -45,6 +47,7 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.15;
+  letter-spacing: 0.02em;
 
   text-decoration: none;
   color: var(--title-text-color);
@@ -125,11 +128,13 @@ a {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .text {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
@@ -138,11 +143,13 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 
 .profession {
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
@@ -154,11 +161,13 @@ a {
 
 .logo.logo-footer {
   color: var(--bgb-color);
+
 }
 
-.contact-footer .link-contact {
+.contact-footer  .link-contact {
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 
   text-decoration: none;
 
@@ -173,6 +182,7 @@ a {
 .street {
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 
   color: var(--bgb-color);
 }
